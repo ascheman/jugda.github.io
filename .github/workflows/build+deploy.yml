@@ -2,8 +2,6 @@ name: Build and Deploy Jekyll Site with Docker
 
 on:
   push:
-    branches:
-      - '*' # Build on every branch
   workflow_dispatch:
 
 jobs:
